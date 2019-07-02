@@ -9,6 +9,6 @@
 import Foundation
 
 public class MyFramework {
-    static let shared = MyFramework()
-    func foo() {}
+    public static let shared = MyFramework()
+    public func foo() {}
 }
